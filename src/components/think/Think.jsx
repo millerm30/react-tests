@@ -57,14 +57,14 @@ function ProductTable({ products, filterText, inStockOnly }) {
   });
 
   return (
-    <table className="myTable container flex flex-col m-auto items-center bg-white rounded-lg mt-5 mb-5 p-10 sm:w-full">
-      <thead>
-        <tr>
-          <th>Name</th>
-          <th>Price</th>
+    <table className="m-auto w-3/4 table-auto border-collapse border border-slate-400 lg:w-1/2">
+      <thead className='border border-slate-400'>
+        <tr className='border border-slate-400'>
+          <th className='border border-slate-400 text-left'>Name</th>
+          <th className='border border-slate-400'>Price</th>
         </tr>
       </thead>
-      <tbody>{rows}</tbody>
+      <tbody className='border border-slate-400'>{rows}</tbody>
     </table>
   );
 }
@@ -77,9 +77,9 @@ function ProductRow({ product }) {
   );
 
   return (
-    <tr>
-      <td>{name}</td>
-      <td>{product.price}</td>
+    <tr className='border border-slate-400'>
+      <td className='border border-slate-400'>{name}</td>
+      <td className='border border-slate-400 text-center'>{product.price}</td>
     </tr>
   );
 }

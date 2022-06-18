@@ -12,7 +12,7 @@ const Showhide = () => {
     <Container title="Button Click to Show and Hide an Element" description="User should be able to click on a button to show and hide an element">
       <button
         onClick={handleClick}
-        className="w-full m-auto bg-blue-400 border-2 border-blue-500 py-2 px-4 rounded-lg mt-10 hover:bg-blue-500 sm:w-1/2"
+        className="w-full m-auto bg-blue-400 border-2 border-blue-500 py-2 px-4 rounded-lg mt-10 hover:bg-blue-500 lg:w-1/4"
       >
         {show ? 'Hide' : 'Show'}
       </button>
