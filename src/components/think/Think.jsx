@@ -19,6 +19,7 @@ function SearchBar({filterText, inStockOnly, onFilterTextChange, onInStockOnlyCh
           value={filterText}
           placeholder="Search..."
           onChange={(e) => onFilterTextChange(e.target.value)}
+          className="border-2 border-gray-300 px-2 rounded-lg"
         />
         <label>
           <input
