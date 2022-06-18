@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-tests/static/css/main.3245e692.css",
+    "main.js": "/react-tests/static/js/main.6e4d4987.js",
+    "static/media/profilephoto.png": "/react-tests/static/media/profilephoto.d148f5f275d3e4fc2156.png",
+    "static/media/gclogo.svg": "/react-tests/static/media/gclogo.9a4d47297292c67bf9796d7589bd452f.svg",
+    "index.html": "/react-tests/index.html",
+    "main.3245e692.css.map": "/react-tests/static/css/main.3245e692.css.map",
+    "main.6e4d4987.js.map": "/react-tests/static/js/main.6e4d4987.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3245e692.css",
+    "static/js/main.6e4d4987.js"
+  ]
+}
