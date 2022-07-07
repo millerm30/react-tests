@@ -20,7 +20,7 @@ const Login = () => {
     return (
         <>
         {getEmail && getPassword ? <Layout /> :
-        <Container title="User Login and Logout" description="Create a user login with local storage with a guest user email (abc@mail.com) and password (123) and goto page on correct user info with a logout button to bring back to main page">
+        <Container title="React Testing Area" description="To login to app, please use abc@mail.com for the user email and 123 for the passord.">
             <div className="w-3/4 mx-auto mt-5">
                 <form className="flex flex-col" onSubmit={handleSubmit}>
                     <label>User Email:</label>
