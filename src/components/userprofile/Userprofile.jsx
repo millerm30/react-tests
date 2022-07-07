@@ -6,8 +6,8 @@ import {FaLinkedin, FaTwitter, FaInstagram, FaGithub} from 'react-icons/fa'
 
 const Userprofile = () => {
   return (
-    <div className='userProfile container flex flex-col m-auto bg-gray-200 rounded-lg mt-5 mb-5 p-10 sm:w-1/2 border-2 border-[#ccc] shadow-md'>
-      <div className='cardContent my-5 mx-auto bg-white rounded-xl w-full shadow-md lg:w-8/12'>
+    
+      <div className='cardContent w-full my-5 mx-auto bg-white rounded-xl border-2 shadow-md border-[#ccc] md:w-1/2 lg:w-1/2'>
         <div className='cardHeader bg-profile-header text-center h-32 rounded-t-xl'></div>
         <div className='profileImage -mt-20'>
           <img className='w-1/2 rounded-xl mx-auto my-2' src={Profile} alt='' />
@@ -29,7 +29,7 @@ const Userprofile = () => {
           <a href='http:///www.github.com/millerm30' target='_blank' rel='noopener noreferrer'><FaGithub className='text-5xl mx-3 text-[#a5a5a5] hover:scale-125 transition-all duration-700'/></a>
         </div>
       </div>
-    </div>
+    
   )
 }
 
