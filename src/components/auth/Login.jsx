@@ -5,13 +5,17 @@ import Layout from "../layout/Layout";
 const Login = () => {
     const email = useRef();
     const password = useRef();
-    const getEmail = localStorage.getItem("emailData");
-    const getPassword = localStorage.getItem("passwordData");
+    const getEmail = localStorage.getItem("emailData", "abc@mail.com");
+    const getPassword = localStorage.getItem("passwordData", "123");
     const handleSubmit = () => {
-        if(email.current.value === "abc@mail.com" && password.current.value === "123");
-        localStorage.setItem("emailData", "abc@mail.com");
-        localStorage.setItem("passwordData", "123");   
-    };
+        if(email.current.value === "abc@mail.com" && password.current.value === "123") {
+          localStorage.setItem("emailData", email.current.value);
+          localStorage.setItem("passwordData", password.current.value);
+        }
+        else{
+            alert("Please enter valid email and password");
+        }
+    }
     
     return (
         <>
