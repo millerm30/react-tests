@@ -1,12 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import Login from './components/auth/Login';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import Main from "./components/main/Main";
 
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-root.render (
-    <Login />
-)
-
+root.render(<Main />);
